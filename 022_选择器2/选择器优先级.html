@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text{
+            color: red
+        }
+        #desc{
+            color:blue
+        }
+    .t2{
+        color: yellow
+    }
+    .t1{
+        color: brown
+    }
+    </style>
+
+
+</head>
+<body>
+    <h3>全局选择器 *</h3>
+    <h3>元素选择器 (标签名称)</h3>
+    <h3>类选择器 (.类名)</h3>
+    <h3>id选择器 (#)</h3>
+    <h3>内联选择器</h3>
+
+
+    <p class="text" id="desc">我是p标签</p>
+    <p class="text" id="desc" style="color: green">我是p标签</p>
+
+
+    <!-- 当同样优先级时，按照执行顺序，前者被后者覆盖 -->
+    <p class="t1, t2">我是测试文本</p>
+</body>
+</html>
